@@ -1,0 +1,64 @@
+@media screen and (max-width: 1024px) {
+    .booking .cards {
+        @apply px-0
+    }
+
+    .booking .tags {
+        @apply px-20
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .booking .cards {
+        @apply flex-wrap
+    }
+
+    .booking .cards .about-card {
+        @apply w-full
+    }
+
+    .booking .tags {
+        @apply flex-col px-5
+    }
+
+    .booking .tags .w-2\/3 {
+        @apply w-full
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .backdrop-booking {
+        @apply flex-col p-10
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .booking .text-4xl {
+        @apply text-2xl
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .booking .cards {
+        @apply mx-5
+    }
+
+    .booking .cards .text-xl,
+    .booking .tags h3 {
+        @apply text-lg
+    }
+
+    .booking .right form .inputs {
+        @apply flex-col
+    }
+
+    .booking .right form .inputs input,
+    .booking .right form .inputs select {
+        @apply w-full
+    }
+
+    .backdrop-booking,
+    .booking .right {
+        @apply px-5
+    }
+}

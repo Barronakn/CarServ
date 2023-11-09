@@ -1,0 +1,116 @@
+@media screen and (max-width: 1024px) {
+    .about .px-32:first-child {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .about .flex.gap-14.px-32 {
+        @apply px-10;
+    }
+
+    .about .flex.gap-14 {
+        flex-direction: column;
+    }
+
+    .about .left {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .about .left, .about .right {
+        @apply w-full
+    }
+
+    .about .absolute {
+        @apply right-14
+    }
+
+    .sactistics .absolute {
+        @apply right-0
+    }
+
+    .technicians.px-32 {
+        @apply px-5
+    }
+}
+
+@media screen and (max-width: 815px) {
+    .about .left .absolute {
+        @apply right-7
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .about .flex.gap-6 {
+        flex-direction: column;
+    }
+
+    .about .about-card {
+        @apply w-full
+    }
+
+    .about .left .absolute {
+        @apply right-0
+    }
+
+    .about .sactistics .absolute.gap-16 {
+        @apply gap-0
+    }
+
+    .about .sactistic {
+        @apply text-center
+    }
+
+    .text-7xl {
+        @apply text-4xl
+    }
+
+    .technicians .flex:last-child {
+        @apply flex-wrap
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .about .left .absolute {
+        @apply -right-5
+    }
+
+    .about .sactistics {
+        height: 100vh;
+    }
+
+    .about .sactistics .absolute.gap-16 {
+        @apply flex-col w-full
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .about .about-card h2 {
+        @apply text-lg
+    }
+
+    .about .left {
+        @apply mt-20
+    }
+
+    .about .m-20 {
+        @apply m-5
+    }
+
+    .about .left .absolute {
+        @apply text-lg w-3/4
+    }
+
+    .about .left .absolute span {
+        @apply text-2xl
+    }
+
+    .about .text-4xl {
+        @apply text-2xl
+    }
+
+    .text-7xl {
+        @apply text-4xl
+    }
+}

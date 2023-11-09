@@ -1,0 +1,30 @@
+@media screen and (max-width: 1050px) {
+    .navbar-toggle {
+        display: block;
+    }
+
+    .navbar {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 590px) {
+    .navbar-toggle.px-20 {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .navbar-toggle ul {
+        gap: 20px;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .navbar-toggle ul {
+        flex-wrap: wrap;
+    }
+
+    .navbar-toggle .logo a {
+        font-size: 25px;
+    }
+}

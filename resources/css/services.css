@@ -1,0 +1,55 @@
+@media screen and (max-width: 1024px) {
+    .service_1 {
+        @apply flex-col items-center
+    }
+
+    .left,
+    .center,
+    .right {
+        @apply w-full
+    }
+
+    .center img {
+        @apply w-full object-cover
+    }
+
+    .backdrop-services {
+        @apply px-14
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .backdrop-services {
+        @apply flex-col p-10
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .services .text-4xl {
+        @apply text-2xl
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .service_1 {
+        @apply px-5
+    }
+
+    .services .text-4xl {
+        @apply text-xl
+    }
+
+    .services .right form .inputs {
+        @apply flex-col
+    }
+
+    .services .right form .inputs input,
+    .services .right form .inputs select {
+        @apply w-full
+    }
+
+    .backdrop-services,
+    .services .right {
+        @apply px-5
+    }
+}

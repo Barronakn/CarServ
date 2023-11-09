@@ -1,0 +1,37 @@
+@media screen and (max-height: 500px) {
+    header.top-0 {
+        top: 30px;
+    }
+}
+
+@media screen and (max-width: 920px) {
+    header .header-content {
+        flex-direction: column;
+    }
+
+    header .header-content h1 {
+        font-size: 20px;
+    }
+
+    header .header-content p {
+        font-size: 30px;
+    }
+
+    header .header-content a {
+        padding: 6px 10px;
+        width: 135px;
+    }
+
+    header .header-content img {
+        height: 180px;
+    }
+
+    header.top-0 {
+        top: 50px;
+    }
+
+    header .header-content.px-32 {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}
